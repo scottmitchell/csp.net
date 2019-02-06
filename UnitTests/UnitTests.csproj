@@ -32,6 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DemoProblems\MapColoring.cs" />
+    <Compile Include="DemoProblems\TestMapColoring.cs" />
     <Compile Include="TestAssignment.cs" />
     <Compile Include="DemoProblems\NQueens.cs" />
     <Compile Include="TestProblem.cs" />
