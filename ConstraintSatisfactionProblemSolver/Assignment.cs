@@ -92,6 +92,7 @@ namespace Csp
         /// <exception cref="System.ArgumentNullException">if <code>constraints</code> is null</exception>
         public bool IsConsistent(IEnumerable<IConstraint<TVar, TVal>> constraints)
         {
+
             return constraints.All(c => !c.IsViolated(this));
         }
 

@@ -41,7 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assignment.cs" />
+    <Compile Include="Constraints\ISoftConstraint.cs" />
+    <Compile Include="Constraints\NumUniqueConstraint.cs" />
+    <Compile Include="CostFunction.cs" />
     <Compile Include="DomainSortStrategies\RandomSortStrategy.cs" />
+    <Compile Include="NaiveConstraintOptimization.cs" />
+    <Compile Include="OptimizationProblem.cs" />
     <Compile Include="RecursiveBacktrackSolver.cs" />
     <Compile Include="Constraints\AllDifferentConstraint.cs" />
     <Compile Include="DomainSortStrategies\ComparerDomainSortStrategy.cs" />
